@@ -11,3 +11,7 @@ figcaption {
     padding: 2px;
     text-align: center;
 }
+
+#character_image {
+    width: 40%;
+}
