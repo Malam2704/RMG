@@ -5,26 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>R&M Character Generator</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/styles/styles.css">
     <script src="assets/scripts/scripts.js"></script>
 
 </head>
 
 <body>
-    <figure>
-        <img id='character_image' src="assets/images/place_holder.jpg" alt="Rick & Morty Poster Image">
-        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-    </figure>
+    <h1>Rick & Morty Character Generator</h1>
 
-    <div id="text_info">
-        <p>Name: </p>
-        <p>Species: </p>
-    </div>
+    <div id="generator_container">
+        <figure>
+            <img id='character_image' src="assets/images/place_holder.jpg" alt="Rick & Morty Poster Image"
+                height="400px" width="400px">
+            <figcaption id="text_info">
+                <p>Name: </p>
+                <p>Species: </p>
+            </figcaption>
+        </figure>
 
-    <div>
-        <button onclick="getNewCharacter()">Generate A New
-            Character</button>
+        <!-- <div>
+            <p>Name: </p>
+            <p>Species: </p>
+        </div> -->
+
+        <div id="button-area">
+            <button onclick="getNewCharacter()">Generate A New
+                Character</button>
+        </div>
+
     </div>
 </body>
 

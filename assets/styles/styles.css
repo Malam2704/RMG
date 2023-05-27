@@ -1,5 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url("../images/layered-peaks-haikei.jpeg"); */
+    background-color: #0c78b7;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#generator_container {
+    width: 30%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: aquamarine;
+}
+
 figure {
-    border: 1px #cccccc solid;
+    border: 2px #cccccc solid;
     padding: 4px;
     margin: auto;
 }
@@ -13,5 +33,10 @@ figcaption {
 }
 
 #character_image {
-    width: 40%;
+    width: 100%;
+}
+
+#button-area {
+    text-align: center;
+    margin: 20px;
 }
